@@ -2,7 +2,7 @@
   "label": "Integrating your GTM Tools with Launchyfi",
   "position": 4,
   "link": {
-    "type": "generated-index",
-    "description": "Explore the various integrated tools and get step-by-step instructions on how to connect them with Launchyfi to enhance your workflow."
+    "type": "doc",
+    "id": "Integrated Tools/index"
   }
 }

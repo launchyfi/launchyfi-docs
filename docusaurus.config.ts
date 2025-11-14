@@ -78,13 +78,13 @@ const config: Config = {
     navbar: {
       title: 'Launchyfi',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Launchyfi Logo',
+        src: 'img/launchyfi_logo_purple.png',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'docsSidebar',
           position: 'left',
           label: 'Docs',
         },

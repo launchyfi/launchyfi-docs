@@ -1,6 +1,14 @@
+---
+sidebar_position: 2
+slug: /integrated-tools/hubspot
+---
 # HubSpot 
 
-## intro/what it is
+![HubSpot](/img/hubspot_logo.png)
+
+## Intro
+
+[HubSpot](https://www.hubspot.com/) frames itself as a "Customer Platform", an AI‑powered Smart CRM with Marketing, Sales, Service, Content, Data, and Commerce hubs. The promise is to help go‑to‑market teams grow by unifying tools and data end‑to‑end, with Breeze AI agents and 2,000+ integrations connecting workflows from first touch to revenue.
 
 ## Setup
 

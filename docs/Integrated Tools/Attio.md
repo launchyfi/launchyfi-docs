@@ -1,10 +1,15 @@
 ---
 sidebar_position: 3
+slug: /integrated-tools/attio
 ---
 
 # Attio
 
-## Intro to attio paragraph
+![Attio](/img/attio_logo.png)
+
+## Intro
+
+[Attio](https://attio.com/) describes itself as an "AI‑native CRM for GTM builders," built to let teams model their data, automate complex workflows, and deploy AI for tasks like prospecting and lead routing. It leans on real‑time integrations (email, calendar, product, billing, and data sources) and fast, flexible reporting, so go‑to‑market operations can run at full throttle.
 
 ## Setup
 
@@ -21,7 +26,7 @@ Once you have an account set up with Attio, you can find your API key by navigat
 - scroll down to developers (under workspace)
 - under 'Access tokens', create a new token. 
 - assign 'Read-write' permissions to all 
-- naming it launchyfi_token is reccommended but not required
+- naming it launchyfi_token is recommended but not required
 - Save changes
 - copy the API key
 - in the Launchyfi website, navigate to the integrations tab
