@@ -5,7 +5,10 @@ slug: /integrated-tools/lemlist
 
 # lemlist
 
-![lemlist](/img/lemlist_logo.png)
+<p>
+	<img src="/img/lemlist_logo.png" alt="lemlist" class="only-light" width="160"/>
+	<img src="/img/Lemlist_w.png" alt="lemlist" class="only-dark" width="160"/>
+</p>
 
 ## Intro
 

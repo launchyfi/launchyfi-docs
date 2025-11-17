@@ -1,8 +1,8 @@
 {
   "label": "Upcoming Integrations",
-  "position": 5,
+  "position": 99,
   "link": {
     "type": "doc",
-    "id": "Upcoming Integrations/index"
+    "id": "Integrated Tools/Upcoming Integrations/index"
   }
 }

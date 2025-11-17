@@ -5,7 +5,10 @@ slug: /integrated-tools/heyreach
 
 # HeyReach
 
-![HeyReach](/img/heyreach_logo.png)
+<p>
+	<img src="/img/heyreach_logo.png" alt="HeyReach" class="only-light" width="160"/>
+	<img src="/img/Heyreach_w.png" alt="HeyReach" class="only-dark" width="160"/>
+</p>
 
 ## Intro
 

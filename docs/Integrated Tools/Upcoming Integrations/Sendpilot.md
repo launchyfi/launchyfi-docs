@@ -4,7 +4,10 @@ slug: /upcoming-integrations/sendpilot
 
 # SendPilot (Upcoming)
 
-![SendPilot](/img/sendpilot_logo.png)
+<p>
+	<img src="/img/sendpilot_logo.png" alt="SendPilot" class="only-light" width="160"/>
+	<img src="/img/Sendpilot_w.png" alt="SendPilot" class="only-dark" width="160"/>
+</p>
 
 Status: Coming soon.
 

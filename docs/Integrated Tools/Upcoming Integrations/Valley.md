@@ -4,7 +4,10 @@ slug: /upcoming-integrations/valley
 
 # Valley (Upcoming)
 
-![Valley](/img/valley_logo.png)
+<p>
+	<img src="/img/valley_logo.png" alt="Valley" class="only-light" width="160"/>
+	<img src="/img/Valley_w.png" alt="Valley" class="only-dark" width="160"/>
+</p>
 
 Status: Coming soon.
 

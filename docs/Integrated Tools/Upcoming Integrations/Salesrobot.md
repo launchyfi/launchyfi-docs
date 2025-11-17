@@ -4,7 +4,10 @@ slug: /upcoming-integrations/salesrobot
 
 # Salesrobot (Upcoming)
 
-![Salesrobot](/img/salesrobot_logo.png)
+<p>
+	<img src="/img/salesrobot_logo.png" alt="Salesrobot" class="only-light" width="160"/>
+	<img src="/img/Salesrobot_w.png" alt="Salesrobot" class="only-dark" width="160"/>
+</p>
 
 Status: Coming soon.
 

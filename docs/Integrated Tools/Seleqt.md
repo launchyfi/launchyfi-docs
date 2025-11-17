@@ -4,7 +4,10 @@ slug: /integrated-tools/seleqt
 ---
 # Seleqt
 
-![Seleqt](/img/seleqt_logo.png)
+<p>
+	<img src="/img/seleqt_logo.png" alt="Seleqt" class="only-light" width="160"/>
+	<img src="/img/Seleqt_w.png" alt="Seleqt" class="only-dark" width="160"/>
+</p>
 
 ## Intro
 

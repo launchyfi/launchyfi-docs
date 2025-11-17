@@ -4,7 +4,10 @@ slug: /integrated-tools/hubspot
 ---
 # HubSpot 
 
-![HubSpot](/img/hubspot_logo.png)
+<p>
+	<img src="/img/hubspot_logo.png" alt="HubSpot" class="only-light" width="160"/>
+	<img src="/img/Hubspot_w.png" alt="HubSpot" class="only-dark" width="160"/>
+</p>
 
 ## Intro
 

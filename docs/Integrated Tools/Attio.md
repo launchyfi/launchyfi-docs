@@ -5,7 +5,10 @@ slug: /integrated-tools/attio
 
 # Attio
 
-![Attio](/img/attio_logo.png)
+<p>
+	<img src="/img/attio_logo.png" alt="Attio" class="only-light" width="160"/>
+	<img src="/img/Attio_w.png" alt="Attio" class="only-dark" width="160"/>
+</p>
 
 ## Intro
 
