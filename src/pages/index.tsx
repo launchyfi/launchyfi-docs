@@ -13,7 +13,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   const bannerSrc = useBaseUrl('/img/launchyfi_grad.png');
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
         <div className="hero__title" style={{display: 'flex', justifyContent: 'center'}}>
           <img
@@ -22,7 +22,7 @@ function HomepageHeader() {
             style={{maxWidth: 720, width: '100%', height: 'auto'}}
           />
         </div>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle text-primary">{siteConfig.tagline}</p>
       </div>
     </header>
   );
