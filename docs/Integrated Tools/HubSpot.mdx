@@ -4,10 +4,19 @@ slug: /integrated-tools/hubspot
 ---
 # HubSpot 
 
-<p>
-	<img src="/img/hubspot_logo.png" alt="HubSpot" class="only-light" width="160"/>
-	<img src="/img/Hubspot_w.png" alt="HubSpot" class="only-dark" width="160"/>
-</p>
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<div style={{marginBottom: '0.5rem'}}>
+  <ThemedImage
+    alt="HubSpot"
+    sources={{
+      light: useBaseUrl('/img/hubspot_logo.png'),
+      dark: useBaseUrl('/img/Hubspot_w.png'),
+    }}
+    style={{maxWidth: 160, width: '100%', height: 'auto'}}
+  />
+</div>
 
 ## Intro
 
@@ -19,7 +28,7 @@ slug: /integrated-tools/hubspot
 if you don't already have an account with HubSpot you can find instructions on how to set up your account at 
 [https://app.hubspot.com/signup-hubspot/crm](https://app.hubspot.com/signup-hubspot/crm)
 
-### API key retreival
+### Access token retreival
 Once you have an account set up with HubSpot, you can find your Private App Token by navigating through: 
 
 - click on the settings icon on the top tab

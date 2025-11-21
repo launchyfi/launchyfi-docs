@@ -5,10 +5,19 @@ slug: /integrated-tools/lemlist
 
 # lemlist
 
-<p>
-	<img src="/img/lemlist_logo.png" alt="lemlist" class="only-light" width="160"/>
-	<img src="/img/Lemlist_w.png" alt="lemlist" class="only-dark" width="160"/>
-</p>
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<div style={{marginBottom: '0.5rem'}}>
+  <ThemedImage
+    alt="lemlist"
+    sources={{
+      light: useBaseUrl('/img/lemlist_logo.png'),
+      dark: useBaseUrl('/img/Lemlist_w.png'),
+    }}
+    style={{maxWidth: 160, width: '100%', height: 'auto'}}
+  />
+</div>
 
 ## Intro
 
@@ -17,7 +26,10 @@ slug: /integrated-tools/lemlist
 
 ## Setup
 
-### API key retreival
+### lemlist setup
+If you don't already have an account with lemlist, you can sign up or learn more at [https://www.lemlist.com/](https://www.lemlist.com/).
+
+### API key retrieval
 Once you have an account set up with lemlist, you can find your API key by navigating from the Dashboard:
 - Click on your username in the bottom left corner, then select 'Settings'
 - Scroll down to 'Integrations on the left hand tab

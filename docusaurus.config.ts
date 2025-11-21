@@ -7,7 +7,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Launchyfi',
   tagline: "The World's first AI GTME",
-  favicon: 'img/favicon.ico',
+  // Custom favicon (replace with a purpose-made 32x32/48x48 ICO when ready)
+  favicon: 'img/launchyfi_logo_purple.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {

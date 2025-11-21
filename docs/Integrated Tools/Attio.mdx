@@ -5,10 +5,19 @@ slug: /integrated-tools/attio
 
 # Attio
 
-<p>
-	<img src="/img/attio_logo.png" alt="Attio" class="only-light" width="160"/>
-	<img src="/img/Attio_w.png" alt="Attio" class="only-dark" width="160"/>
-</p>
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<div style={{marginBottom: '0.5rem'}}>
+  <ThemedImage
+    alt="Attio"
+    sources={{
+      light: useBaseUrl('/img/attio_logo.png'),
+      dark: useBaseUrl('/img/Attio_w.png'),
+    }}
+    style={{maxWidth: 160, width: '100%', height: 'auto'}}
+  />
+</div>
 
 ## Intro
 
@@ -19,7 +28,6 @@ slug: /integrated-tools/attio
 ### Attio setup
 if you don't already have an account with Attio you can find instructions on how to set up your account at
 [https://attio.com/help/reference/account-settings/signing-into-attio](https://attio.com/help/reference/account-settings/signing-into-attio)
-<a href="https://attio.com/help/reference/account-settings/signing-into-attio" target="_blank" rel="noopener noreferrer">Signing into Attio (new tab)</a>
 
 
 ### API key retreival
@@ -35,6 +43,3 @@ Once you have an account set up with Attio, you can find your API key by navigat
 - in the Launchyfi website, navigate to the integrations tab
 - add an integration
 - select attio from the services list, paste the API key in the box, and save!
-
-
-

@@ -5,10 +5,19 @@ slug: /integrated-tools/heyreach
 
 # HeyReach
 
-<p>
-	<img src="/img/heyreach_logo.png" alt="HeyReach" class="only-light" width="160"/>
-	<img src="/img/Heyreach_w.png" alt="HeyReach" class="only-dark" width="160"/>
-</p>
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<div style={{marginBottom: '0.5rem'}}>
+  <ThemedImage
+    alt="HeyReach"
+    sources={{
+      light: useBaseUrl('/img/heyreach_logo.png'),
+      dark: useBaseUrl('/img/Heyreach_w.png'),
+    }}
+    style={{maxWidth: 160, width: '100%', height: 'auto'}}
+  />
+</div>
 
 ## Intro
 
@@ -17,7 +26,10 @@ slug: /integrated-tools/heyreach
 
 ## Setup
 
-### API key retreival
+### HeyReach setup
+If you don't already have an account with HeyReach, you can sign up or learn more at [https://www.heyreach.io/](https://www.heyreach.io/).
+
+### API key retrieval
 Once you have an account set up with HeyReach, you can find your API key by navigating from [https://app.heyreach.io/app/dashboard](https://app.heyreach.io/app/dashboard):
 - sclick on the integrations icon on the left sidebar
 - Next to 'HeyReach API' click 'Get API key'
