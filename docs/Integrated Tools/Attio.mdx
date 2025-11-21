@@ -1,0 +1,45 @@
+---
+sidebar_position: 3
+slug: /integrated-tools/attio
+---
+
+# Attio
+
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<div style={{marginBottom: '0.5rem'}}>
+  <ThemedImage
+    alt="Attio"
+    sources={{
+      light: useBaseUrl('/img/attio_logo.png'),
+      dark: useBaseUrl('/img/Attio_w.png'),
+    }}
+    style={{maxWidth: 160, width: '100%', height: 'auto'}}
+  />
+</div>
+
+## Intro
+
+[Attio](https://attio.com/) describes itself as an "AI‑native CRM for GTM builders," built to let teams model their data, automate complex workflows, and deploy AI for tasks like prospecting and lead routing. It leans on real‑time integrations (email, calendar, product, billing, and data sources) and fast, flexible reporting, so go‑to‑market operations can run at full throttle.
+
+## Setup
+
+### Attio setup
+if you don't already have an account with Attio you can find instructions on how to set up your account at
+[https://attio.com/help/reference/account-settings/signing-into-attio](https://attio.com/help/reference/account-settings/signing-into-attio)
+
+
+### API key retreival
+Once you have an account set up with Attio, you can find your API key by navigating through:
+- click your username top left corner
+- scroll down to workspace settings
+- scroll down to developers (under workspace)
+- under 'Access tokens', create a new token. 
+- assign 'Read-write' permissions to all 
+- naming it launchyfi_token is recommended but not required
+- Save changes
+- copy the API key
+- in the Launchyfi website, navigate to the integrations tab
+- add an integration
+- select attio from the services list, paste the API key in the box, and save!
